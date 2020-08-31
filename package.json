@@ -1,12 +1,25 @@
 {
-  "name": "bloggatsby",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "bloggatsby",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "gatsby develop -p 9988 -o"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@mdx-js/mdx": "^1.6.16",
+        "@mdx-js/react": "^1.6.16",
+        "babel-plugin-styled-components": "^1.11.1",
+        "gatsby": "^2.24.52",
+        "gatsby-plugin-mdx": "^1.2.37",
+        "gatsby-plugin-styled-components": "^3.3.10",
+        "gatsby-source-filesystem": "^2.3.27",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "styled-components": "^5.1.1"
+    }
 }
